@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurelia University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">AURELIA<span>.</span></div>
+
+        <div class="menu" id="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#admissions">Admissions</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <button class="nav-btn" onclick="location.href='#admissions'">
+            Apply Now
+        </button>
+
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tag">WELCOME TO AURELIA UNIVERSITY</p>
+            <h1>Discover Your <span>Potential.</span> Shape Your Future.</h1>
+            <p>
+                Empowering tomorrow's leaders through innovation,
+                creativity and world-class education.
+            </p>
+            <a href="#courses" class="main-btn">Explore Programs →</a>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div><h2>15K+</h2><p>Students</p></div>
+        <div><h2>120+</h2><p>Expert Faculty</p></div>
+        <div><h2>45+</h2><p>Programs</p></div>
+        <div><h2>30+</h2><p>Countries</p></div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img"></div>
+
+        <div class="about-content">
+            <p class="tag">ABOUT OUR UNIVERSITY</p>
+            <h2>Education Beyond Boundaries.</h2>
+            <p>
+                At Aurelia University, we believe education is more
+                than just a degree. We create opportunities for
+                students to explore their passions, develop skills
+                and become future innovators.
+            </p>
+            <a href="#contact" class="main-btn">Learn More →</a>
+        </div>
+    </section>
+
+    <section class="courses" id="courses">
+        <p class="tag">OUR ACADEMIC PROGRAMS</p>
+        <h2>Explore Our Programs</h2>
+
+        <div class="course-container">
+            <div class="course-card">
+                <div class="course-img computer"></div>
+                <h3>Computer Science</h3>
+                <p>Explore AI, software development, cybersecurity and technology.</p>
+                <a href="#admissions">Explore Course →</a>
+            </div>
+
+            <div class="course-card">
+                <div class="course-img business"></div>
+                <h3>Business Administration</h3>
+                <p>Develop leadership, entrepreneurship and management skills.</p>
+                <a href="#admissions">Explore Course →</a>
+            </div>
+
+            <div class="course-card">
+                <div class="course-img engineering"></div>
+                <h3>Engineering</h3>
+                <p>Build innovative solutions through science and engineering.</p>
+                <a href="#admissions">Explore Course →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="admission" id="admissions">
+        <p class="tag">YOUR JOURNEY STARTS HERE</p>
+        <h2>Ready to Build Your Future?</h2>
+        <p>Take the first step towards an exciting academic journey.</p>
+        <button class="main-btn" onclick="showMessage()">
+            Apply for Admission →
+        </button>
+    </section>
+
+    <footer id="contact">
+        <div>
+            <h2>AURELIA<span>.</span></h2>
+            <p>Inspiring Minds. Creating Futures.</p>
+        </div>
+
+        <div>
+            <h3>Contact Us</h3>
+            <p>Email: info@aurelia.example</p>
+            <p>Phone: +91 98765 43210</p>
+            <p>Location: Chennai, India</p>
+        </div>
+
+        <p class="copyright">© 2026 Aurelia University. Fictional college demo.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
